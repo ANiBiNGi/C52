@@ -1,0 +1,54 @@
+h1 {
+    color:rgb(79, 80, 20)
+}
+
+p{
+    text-align: center;
+}
+
+.item {
+position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.2;
+}
+.header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.links {
+margin-right:30px;  
+}
+
+.links a{
+    margin-left: 30px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+background-color: crimson;
+font-size: xx-large;
+}
